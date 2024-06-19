@@ -12,7 +12,7 @@ end
 
 running=true
 
-player="FF01_luau"
+player=owner.Name
 local ball=Instance.new("Part")
 ball.Parent=workspace
 ball.Shape=Enum.PartType.Ball
